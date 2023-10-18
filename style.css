@@ -1,0 +1,155 @@
+@font-face {
+  font-family: iranyekan;
+  src: url(Assets/Font/iranyekanwebblackfanum.eot);
+  src: url(Assets/Font/iranyekanwebblackfanum.ttf);
+  src: url(Assets/Font/iranyekanwebblackfanum.woff);
+}
+:root {
+  --text-color: rgb(231, 231, 231);
+}
+body {
+  background-image: url(Assets/Images/Bitcoin\ -\ Coin\ wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "iranyekan";
+  color: var(--text-color);
+}
+.glassmorphism {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 580px;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+}
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.logotype {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.inps {
+  margin-top: 20px;
+  background-color: none;
+}
+input.inputs {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  width: 200px;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-box-shadow: -1px 1px 1px 1px rgba(180, 180, 180, 1);
+  box-shadow: -1px 1px 1px 1px rgba(180, 180, 180, 1);
+  -webkit-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+input.inputs:hover,
+input.inputs:focus {
+  margin-top: 10px;
+  outline: none;
+  width: 200px;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-box-shadow: -3px 3px 8px 1px rgba(180, 180, 180, 1);
+  box-shadow: -3px 3px 8px 1px rgba(180, 180, 180, 1);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+  -webkit-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+label {
+  font-size: 15px;
+}
+::placeholder {
+  margin-right: 5px;
+  font-weight: 800;
+}
+.checkbox {
+  margin-top: 25px;
+}
+a,
+a:active {
+  color: rgb(107, 107, 107);
+}
+span {
+  font-size: 12px;
+}
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+.btn {
+  font-family: "iranyekan";
+  cursor: pointer;
+  padding: 10px 35px;
+  border: 1px solid #1a1a1a;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background: #1a1a1a;
+  box-shadow: 0px 1px 1px 1px rgba(26, 26, 26, 1);
+  -webkit-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.btn:hover {
+  font-family: "iranyekan";
+  cursor: pointer;
+  padding: 10px 35px;
+  border: 1px solid #1a1a1a;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: rgb(26, 26, 26);
+  background: #ffffff;
+  -webkit-box-shadow: 0px 3px 8px 1px rgba(180, 180, 180, 1);
+  box-shadow: 0px 3px 8px 1px rgba(180, 180, 180, 1);
+  -webkit-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: border-color 150ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.login {
+  margin-top: 30px;
+  font-size: 12px;
+  text-align: center;
+}
